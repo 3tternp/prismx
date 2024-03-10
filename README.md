@@ -1,26 +1,26 @@
 <img src="public/static/scan.png" alt="pc_home" width="30%" />
 
-# :: 棱镜 X · 一体化的轻量型跨平台渗透系统
+# ::Prism X· 一Integrated lightweight cross-platform penetration system 
 
 ---
 
 <p align="center">
-  <a href="https://prismx.io/guide" target="_blank">使用文档</a> ·
-  <a href="">主机管理</a> ·
-  <a href="">风险扫描</a> ·
-  <a href="">漏洞利用</a> 
+  <a href="https://prismx.io/guide" target="_blank"Use documentation</a> ·
+  <a href="">Host management</a> ·
+  <a href="">risk scan</a> ·
+  <a href="">exploit</a> 
 </p>
 
-## 启动
+## start up
 
-### · WEB 系统
+### · WEB system
 
-下载对应 OS ARCH 的软件包 [Prism X releases](https://github.com/yqcs/prismx/releases/)
-，解压之后赋予可执行权限之后直接运行即可。
+Download the software package corresponding to OS ARCH [Prism X releases](https://github.com/yqcs/prismx/releases/)
+, just run it directly after decompressing it and granting executable permissions
 
 <img src="public/static/pc_home.jpg" alt="pc_home"/>
 
-Linux Amd64 运行示例：
+Linux Amd64 Run the example：
 
 ```bash
 $ wget https://github.com/yqcs/prismx/releases/download/{version}/prismx.zip
@@ -30,18 +30,18 @@ $ chmod +x prismx
 $ ./prismx
 ```
 
-#### 系统默认账号：`prismx/prismx@passw0rd`
+#### System default account：`prismx/prismx@passw0rd`
 
-### · 界面预览
+### · Interface preview
 
 <img src="public/static/view.jpg" alt="pc_home"/>
 
 ---
 
-## QQ 安全研究群：
+## QQ Security Research Group：
 
-### [点击加入：528118163](https://jq.qq.com/?_wv=1027&k=azWZhmSy)
+### [Click to join：528118163](https://jq.qq.com/?_wv=1027&k=azWZhmSy)
 
-## 加群 / 联系（左） | 公众号：遮天实验室（右）
+## Join the group/contact (left) | Public account: Zhetian Laboratory (right)
 
 <img src="public/static/wx.jpg" width="200"><img src="public/static/wx_qrcode.jpg" width="200">
