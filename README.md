@@ -1,27 +1,27 @@
 <img src="public/static/scan.png" alt="pc_home" width="30%" />
 
-# :: 棱镜 X · 一体化的轻量型跨平台渗透系统
+# :: Prism X · Integrated lightweight cross-platform penetration system
 
 ---
 
 <p align="center">
-  <a href="https://prismx.io/guide" target="_blank">使用文档</a> ·
-  <a href="">主机管理</a> ·
-  <a href="">风险扫描</a> ·
-  <a href="">漏洞利用</a> ·
-  <a href="">应急辅助</a>
+  <a href="https://prismx.io/guide" target="_blank">Use documentation</a> ·
+  <a href="">Host management</a> ·
+  <a href="">risk scan</a> ·
+  <a href="">exploit</a> ·
+  <a href="">Emergency assistance</a>
 </p>
 
-## 启动
+## start up
 
-### · WEB 系统
+### · WEB system
 
-下载对应 OS ARCH 的软件包 [Prism X releases](https://github.com/yqcs/prismx/releases/)
-，解压之后赋予可执行权限之后直接运行即可。
+Download the software package corresponding to OS ARCH [Prism X releases](https://github.com/yqcs/prismx/releases/)
+，After unzipping, grant executable permissions and run it directly.。
 
 <img src="public/static/pc_home.jpg" alt="pc_home"/>
 
-Linux Amd64 运行示例：
+Linux Amd64 Run the example：
 
 ```bash
 $ wget https://github.com/yqcs/prismx/releases/download/{new version}/built.zip
@@ -33,31 +33,31 @@ $ chmod +x prismx_linux_amd64
 $ ./prismx_linux_amd64
 ```
 
-### WEB 模式
+### WEB model
 
-WEB 模式需提供 License 文件，lib.zip 中内置。运行`./prismx_linux_amd64`命令之后访问`https://yourIP:443`即可进入登录页，使用 -port 参数可指定端口。系统默认账号`prismx/prismx@passw0rd`
-，首次使用请修改账户名与密码！
+WEB mode requires a License file, which is built in lib.zip. Run the `./prismx_linux_amd64` command and access `https://yourIP:443` to enter the login page. Use the -port parameter to specify the port. System default account `prismx/prismx@passw0rd`
+, please change your account name and password for first time use!
 
-### CLI 命令行
+### CLI Command Line
 
-命令行模式无需任何依赖文件，但是只具有基础的扫描模块，无法使用 WEB 模式的扫描配置以及信息收集等高级功能。执行-h
-命令可获取相关帮助。
+The command line mode does not require any dependent files, but it only has a basic scanning module and cannot use advanced functions such as WEB mode scanning configuration and information collection. Execute -h
+Command to get related help。
 
 ```bash
 $ ./prismx_linux_amd64_cli -h
 $ ./prismx_linux_amd64_cli -t 127.0.0.1 -p 1-500,3000-6000
 ```
 
-### · 界面预览
+### · Interface preview
 
 <img src="public/static/view.jpg" alt="pc_home"/>
 
 ---
 
-## QQ 安全研究群：
+## QQ Security Research Group:
 
-### [点击加入：528118163](https://jq.qq.com/?_wv=1027&k=azWZhmSy)
+### [Click to join：528118163](https://jq.qq.com/?_wv=1027&k=azWZhmSy)
 
-## 加群 / 联系（左） | 公众号：遮天实验室（右）
+## Join the group/contact (left) | Public account: Zhetian Laboratory (right)
 
 <img src="public/static/wx.jpg" width="200"><img src="public/static/wx_qrcode.jpg" width="200">
