@@ -4,27 +4,29 @@
 
 </h1>
 
-<h1 align="center">:: 棱镜 X · 轻量型跨平台单兵渗透系统</h1>
+<h1 align="center">::Prism X·Lightweight cross-platform individual soldier penetration system</h1>
 
 ---
 
 <p align="center">
-  <a href="https://prismx.io/guide" target="_blank">使用文档</a> ·
-  <a href="https://prismx.io/guide">远程管理</a> ·
-  <a href="https://prismx.io/guide">风险扫描</a> ·
-  <a href="https://prismx.io/guide">邮件测试</a> ·
-  <a href="https://prismx.io/guide">一键应急</a>
+  <a href="https://prismx.io/guide" target="_blank">Use documentation</a> ·
+  <a href="https://prismx.io/guide">Remote management</a> ·
+  <a href="https://prismx.io/guide">risk scan</a> ·
+  <a href="https://prismx.io/guide">Email test</a> ·
+  <a href="https://prismx.io/guide">一key emergency</a>
 </p>
 
-## 启动
+## start up
 
-### · WEB 系统
+### · WEB system
 
-##### 依赖文件：
+##### Dependency files：
 
-- lib.zip： web 版依赖库，CLI 模式无需下载。
+- lib.zip： web version dependent library，CLI 
+No need to download the mode。
 
-存储仓库： https://oss.prismx.io Linux Amd64 运行示例：
+
+storage warehouse： https://oss.prismx.io Linux Amd64 Run the example：
 
 ```bash
 $ wget https://oss.prismx.io/lib.zip
@@ -34,20 +36,20 @@ $ chmod +x prismx_linux_amd64
 $ ./prismx_linux_amd64
 ```
 
-启动后访问`https://yourIP:443`即可进入登录页，使用 -port 参数可指定端口。系统默认账号`prismx/prismx@passw0rd`
-，首次使用请修改账户名与密码！
+Access after startup`https://yourIP:443`You can enter the login page and use -port Parameters can specify ports。System default account`prismx/prismx@passw0rd`
+，Please change your account name and password when using it for the first time.！
 
-#### 主页：
+#### Home page：
 
 <img src="public/static/pc_home.jpg" alt="pc_home"/>
 
-#### 数据大屏：
+#### Big data screen：
 
 <img src="public/static/view.jpg" alt="pc_home"/>
 
-### · CLI 命令行
+### · CLI command line
 
-命令行模式无需任何依赖文件，只具有基础的扫描模块。执行-h 命令可获取相关帮助。
+The command line mode does not require any dependency files and only has the basic scanning module. Execute the -h command to get related help.
 
 ```bash
 $ ./prismx_linux_amd64_cli -h
@@ -58,10 +60,10 @@ $ ./prismx_linux_amd64_cli -t 127.0.0.1 -p 1-500,3000-6000
 
 ---
 
-## QQ 安全研究群：
+## QQ Security Research Group：
 
-### [点击加入：528118163](https://jq.qq.com/?_wv=1027&k=azWZhmSy)
+### [Click to join：528118163](https://jq.qq.com/?_wv=1027&k=azWZhmSy)
 
-## 加群 / 联系（左） | 公众号：遮天实验室（右）
+##Join the group/contact (left) | Public account: Zhetian Laboratory (right)
 
 <img src="public/static/wx.jpg" width="200"><img src="public/static/wx_qrcode.jpg" width="200">
